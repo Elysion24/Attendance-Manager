@@ -1,1 +1,1 @@
-web: gunicorn clock.wsgi
+web: gunicorn clock:app
