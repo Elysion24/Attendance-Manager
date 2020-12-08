@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'clock.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd5qo6qcceeb9sr',
+        'HOST': 'ec2-54-156-47-113.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER':'pacciaixznuvsq',
+        'PASSWORD': '4d8038310151578a127fcfc0a8e8d62115ce6acf99954fd49ec1efc88a73be63'
     }
 }
 
