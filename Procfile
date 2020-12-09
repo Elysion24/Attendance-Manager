@@ -1,1 +1,1 @@
-web: gunicorn clock:app
+web: gunicorn clock.wsgi:application -b 0.0.0.0:
