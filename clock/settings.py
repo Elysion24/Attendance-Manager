@@ -17,7 +17,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production 
+# Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -26,7 +26,7 @@ SECRET_KEY = 'bt!vaox5$84z84&r%42ts(&y4%p!x27q@+jv*ig74wiith%7)q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'attendancemanager123.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'attendancecopy.herokuapp.com']
 
 
 
@@ -82,14 +82,15 @@ WSGI_APPLICATION = 'clock.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd5qo6qcceeb9sr',
-        'HOST': 'ec2-54-156-47-113.compute-1.amazonaws.com',
+        'NAME': 'ddmgh1oknr503k',
+        'HOST': 'ec2-3-210-255-177.compute-1.amazonaws.com',
         'PORT': '5432',
-        'USER':'pacciaixznuvsq',
-        'PASSWORD': '4d8038310151578a127fcfc0a8e8d62115ce6acf99954fd49ec1efc88a73be63'
+        'USER':'mryfxzvokmxnum',
+        'PASSWORD': '7f8269d1a730fb1f8d74ba28a0a144ae09bd99012ea4a731cab613d69d1f2078'
     }
 }
 
+postgres://mryfxzvokmxnum:7f8269d1a730fb1f8d74ba28a0a144ae09bd99012ea4a731cab613d69d1f2078@ec2-3-210-255-177.compute-1.amazonaws.com:5432/ddmgh1oknr503k
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
