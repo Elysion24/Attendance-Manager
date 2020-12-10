@@ -6,10 +6,10 @@ from django.utils import timezone
 
 # Create your models here.
 class SubmitAttendance(models.Model):
-    
+
     class Meta:
         db_table = 'attendance'
-    
+
     PLACES = (
         (1, 'Bar Foo'),
         (2, 'Bar Baz'),
@@ -35,10 +35,10 @@ class SubmitAttendance(models.Model):
 
     def __str__(self):
         return  str(User.objects.get(id=self.staff_id)) + ' : ' + str(self.place_dict[self.place]) + ' ' + str(self.in_out_dict[self.in_out])
-    
+
 '''
 class Fee(SubmitAttendance):
-    
+
     class Meta:
         db_table = 'fee'
     today = models.DateField(verbose_name='出勤日')

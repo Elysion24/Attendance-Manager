@@ -23,7 +23,7 @@ class ResultView(View):
         day = now.day
         hour = now.hour
         minute = now.minute
-        
+
         obj = form.save(commit=False)
         obj.place = request.POST["place"]
         obj.in_out = request.POST["in_out"]
@@ -41,4 +41,4 @@ class ResultView(View):
             'comment': comment,
         }
         return render(request, 'attendance/result.html', context)
-result = ResultView.as_view()    
+result = ResultView.as_view()
