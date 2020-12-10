@@ -26,7 +26,7 @@ SECRET_KEY = 'bt!vaox5$84z84&r%42ts(&y4%p!x27q@+jv*ig74wiith%7)q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'clock-test2.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'attendancemanager123.herokuapp.com']
 
 
 
@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'clock.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd65bus7qgb141t',
-        'HOST': 'ec2-54-237-135-248.compute-1.amazonaws.com',
+        'NAME': 'd5qo6qcceeb9sr',
+        'HOST': 'ec2-54-156-47-113.compute-1.amazonaws.com',
         'PORT': '5432',
-        'USER':'sgfzhvwewyglsg',
-        'PASSWORD': '83a376842d3e085aaf11587ffe255ed3675269ba96050849171ceb37510759e9'
+        'USER':'pacciaixznuvsq',
+        'PASSWORD': '4d8038310151578a127fcfc0a8e8d62115ce6acf99954fd49ec1efc88a73be63'
     }
 }
 
